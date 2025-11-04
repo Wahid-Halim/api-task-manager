@@ -100,28 +100,22 @@ h5 {
 h1 {
   font-size: 3.052rem;
 }
-
 h2 {
   font-size: 2.441rem;
 }
-
 h3 {
   font-size: 1.953rem;
 }
-
 h4 {
   font-size: 1.563rem;
 }
-
 h5 {
   font-size: 1.25rem;
 }
-
 small,
 .text-small {
   font-size: var(--smallText);
 }
-
 ul {
   padding: 0;
   list-style-type: none;
@@ -129,10 +123,6 @@ ul {
 a {
   text-decoration: none;
 }
-/*************
-     Buttons 
-*************/
-
 .btn {
   cursor: pointer;
   appearance: none;
@@ -146,7 +136,6 @@ a {
   transition: var(--transition);
   text-transform: capitalize;
 }
-
 .btn:hover {
   color: var(--white);
   background: var(--primary-700);
@@ -168,10 +157,6 @@ button.hipster:hover {
 button.block {
   width: 100%;
 }
-
-/*************
-     FORM 
-*************/
 form {
   width: 100%;
   background: var(--white);
@@ -185,7 +170,6 @@ label {
   margin-bottom: 0.5rem;
   text-transform: capitalize;
 }
-
 input,
 textarea {
   width: 100%;
@@ -211,7 +195,6 @@ textarea {
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
 }
-
 .task-form,
 .single-task-form {
   width: 90vw;
